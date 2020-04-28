@@ -9,3 +9,8 @@ HTTP-protokollet används genom...
  delar den består av och vad de kallas.**
 
 - **På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.**
+
+## Feedback
+- **Kursens takt**
+- **Kursmaterial**
+- **Format**
