@@ -54,6 +54,7 @@
 /* FORM */
 .form {
   margin-top: 40px;
+  margin-bottom: 100px;
   background-image: linear-gradient(-290deg, #89799c, #a759be);
   padding: 20px;
   border-radius: 5px;

@@ -65,7 +65,9 @@ class Students extends Component {
             <label htmlFor="email" className={styles.formTitles}>Email:</label>
             <input type="email" className="form-control" placeholder='email'></input>
             <label htmlFor="address" className={styles.formTitles}>Address:</label>
-            <input type="text" className="form-control" placeholder='address'></input>
+            <input type="text" className="form-control mt-1" placeholder='city'></input>
+            <input type="text" className="form-control mt-1" placeholder='street'></input>
+            <input type="text" className="form-control mt-1" placeholder='zip code'></input>
             <button 
               type="button" 
               className="btn btn-dark mt-3"
