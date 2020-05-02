@@ -4,14 +4,13 @@ const app = express();
 
 // environment variable PORT or 3000 if unset
 // change by executing 'export PORT=2000' in bash before starting
-// const port = process.env.PORT || 3000;
-const port = 3000;
+const port = 2000;
 
-app.get('/api', (req, res) => {
-  res.send({'Hello': 'World'});
+app.get('/', (req, res) => {
+  res.send({'Hello': 'World!!!'});
 });
 
-app.get('/api/test', (req, res) => {
+app.get('/api', (req, res) => {
   res.send([1, 2, 3, 4]);
 });
 
