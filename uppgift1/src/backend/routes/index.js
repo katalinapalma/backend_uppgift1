@@ -7,5 +7,6 @@ const students = require('./students.js');
 router.get("/students", students.getStudents);
 router.post('/students', students.postStudent);
 router.delete('/students/:id', students.deleteStudentById);
+router.put('/students/:id', students.putStudent);
 
 module.exports = router;

@@ -36,32 +36,32 @@ postStudent = (req, res, next) => {
   })
 };
 
-
-// putUser = (req, res, next) => {
-//   req.models.User.updateOne({_id: req.params.id},
-//     {
-//       name: req.body.name,
-//       email: req.body.email,
-//       address: {
-//         city: req.body.address.city,
-//         street: req.body.address.street,
-//         zipcode: req.body.address.zipcode,
-//       },
-//     },{
-//       new: true,
-//       upsert: true,
-//       runvalidators: true,
-//     }).then((status) => {
-//       console.log("status: ", status)
-//       if (status.upserted)
-//         res.status(201)
-//       else if (status.nModified)
-//         res.status(200)
-//       else 
-//         res.status(204)
-//     res.send()
-//     }).catch((error) => next(error))
-// };
+//to update/change a students information
+putStudent = (req, res, next) => {
+  req.models.Student.updateOne({_id: req.params.id},
+    {
+      name: req.body.name,
+      email: req.body.email,
+      address: {
+        city: req.body.address.city,
+        street: req.body.address.street,
+        zipcode: req.body.address.zipcode,
+      },
+    },{
+      new: true,
+      upsert: true,
+      runvalidators: true,
+    }).then((status) => {
+      console.log("status: ", status)
+      if (status.upserted)
+        res.status(201)
+      else if (status.nModified)
+        res.status(200)
+      else 
+        res.status(204)
+    res.send()
+    }).catch((error) => next(error))
+};
 
 //delete a specific student
 deleteStudentById = (req, res, next) => {
@@ -80,6 +80,7 @@ module.exports = {
   getStudents: getStudents,
   postStudent: postStudent,
   deleteStudentById: deleteStudentById,
+  putStudent: putStudent,
 } 
 
 
