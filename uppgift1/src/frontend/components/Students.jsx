@@ -14,16 +14,16 @@ class Students extends Component {
     }
   }
 
-  // componentDidMount = () => {
-  //   fetch('http://localhost:2000/students')
-  //   .then((res) => res.json())
-  //   .then((response) => {
-  //     console.log('response', response)
-  //     this.setState({
-  //       students: response
-  //     });
-  //   })
-  // };
+  componentDidMount = () => {
+    fetch('http://localhost:2000/students')
+    .then((res) => res.json())
+    .then((response) => {
+      console.log('response', response)
+      this.setState({
+        students: response
+      });
+    })
+  };
 
   deleteStudent = (e) => {
     console.log('deleted student')
