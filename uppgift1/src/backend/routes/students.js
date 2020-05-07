@@ -1,12 +1,14 @@
-// const dotify = require('node-dotify');
-
-//get all students
+//get a student with their name or get all students
 getStudents = (req, res, next) => {
-  req.models.Student.find().then((students) => {
-    return res.send(students);
-  }).catch((error) => {
-    next(error)
-  })
+  let query;
+  if(req.query.name){
+    query = req.models.Student.findOne({ 'name': req.query.name });
+  }else{
+    query = req.models.Student.find();
+  }
+  query.exec()
+    .then(students => res.send(students))
+    .catch(error => next(error));
 };
 
 //get student with id
@@ -78,25 +80,8 @@ deleteStudentById = (req, res, next) => {
 
 module.exports = {
   getStudents: getStudents,
+  getStudentsById: getStudentsById,
   postStudent: postStudent,
   deleteStudentById: deleteStudentById,
   putStudent: putStudent,
 } 
-
-
-//TA BORT SEN
-// getStudentsById = (req, res, next) => {
-//   var query;
-//   if(req.query.username) {
-//     query = req.models.User.findOne({username: req.query.username})
-//   }
-//   else
-//   {
-//     query = req.models.User.find()
-//   }
-//   query.exec().then((user) => {
-//       return res.send(user);
-//     }).catch((error) => {
-//       next(error)
-//     })
-// }

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import styles from '../frontend/Students.module.css';
+import styles from '../components/Students.module.css';
 
 class Students extends Component {
   constructor(props) {
@@ -13,6 +13,17 @@ class Students extends Component {
       ],
     }
   }
+
+  // componentDidMount = () => {
+  //   fetch('http://localhost:2000/students')
+  //   .then((res) => res.json())
+  //   .then((response) => {
+  //     console.log('response', response)
+  //     this.setState({
+  //       students: response
+  //     });
+  //   })
+  // };
 
   deleteStudent = (e) => {
     console.log('deleted student')
@@ -55,26 +66,6 @@ class Students extends Component {
               {this.renderTableData()}
              </tbody>
           </table>
-       </div>
-
-       <h3 className={styles.studentsH3}>Want to create a student?</h3>
-       <div className={styles.container}>
-         <form className={styles.form}>
-            <label htmlFor="name" className={styles.formTitles}>Name:</label>
-            <input type="text" className="form-control" placeholder='name'></input>
-            <label htmlFor="email" className={styles.formTitles}>Email:</label>
-            <input type="email" className="form-control" placeholder='email'></input>
-            <label htmlFor="address" className={styles.formTitles}>Address:</label>
-            <input type="text" className="form-control mt-1" placeholder='city'></input>
-            <input type="text" className="form-control mt-1" placeholder='street'></input>
-            <input type="text" className="form-control mt-1" placeholder='zip code'></input>
-            <button 
-              type="button" 
-              className="btn btn-dark mt-3"
-              onClick={this.createStudent}>
-                Create
-            </button>
-         </form>
        </div>
       </Fragment>
     )
