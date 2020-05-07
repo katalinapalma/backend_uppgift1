@@ -47,10 +47,6 @@ class Students extends Component {
     })
   }
 
-  createStudent = (e) => {
-    console.log('created student')
-  }
-
   render() {
     const { students } = this.state;
     return (
