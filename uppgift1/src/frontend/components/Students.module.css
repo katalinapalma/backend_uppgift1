@@ -4,6 +4,7 @@
   justify-content: center;
 }
 
+/* TABLE STYLING */
 .studentsH2 {
   color: #a893b4;
   text-transform: uppercase;
@@ -20,9 +21,8 @@
   font-weight: 600;
 }
 
-/* STYLING NOT MINE */
 .students {
-  background-color: #fff;
+  background-color: #353148;
   width: 50%;
   border-collapse: collapse;
   padding: 10px;
@@ -51,7 +51,11 @@
   font-size: 18px;
 }
 
-/* FORM */
+.deleteBtn {
+  background-color: 'red';
+}
+
+/* FORM STYLING*/
 .form {
   margin-top: 40px;
   margin-bottom: 100px;

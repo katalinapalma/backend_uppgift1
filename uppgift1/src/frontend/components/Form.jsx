@@ -2,6 +2,23 @@ import React, { Component, Fragment } from 'react';
 import styles from '../components/Students.module.css';
 
 class Form extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      address: {
+        city: '',
+        street: '',
+        zipcode: '',
+      }
+    }
+  }
+
+  handleInputName = (e) => {
+    this.setState({name: e.target.value});
+    e.preventDefault();
+  }
   render() {
     return (
       <Fragment>
