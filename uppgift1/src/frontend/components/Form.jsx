@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import styles from '../components/Students.module.css';
 
-class Students extends Component {
+class Form extends Component {
   render() {
     return (
       <Fragment>
@@ -29,4 +29,4 @@ class Students extends Component {
   }
 } 
 
-export default Students;
+export default Form;
