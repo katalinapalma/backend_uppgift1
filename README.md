@@ -1,6 +1,7 @@
 ## Teoretisk del
+![](https://placehold.it/350x90/009000/fff?text=Teoretisk del!)
 - **Hur används HTTP-protokollet när du surfar in på en websida? Beskriv vilken metod, path, URI, response code och body som skickas in och svarar.**<br>
-HTTP-protokollet används genom...
+>HTTP-protokollet används genom...
 
 - **Beskriv HTTP-protokollets vanligaste metoder och vad de gör.**
 
