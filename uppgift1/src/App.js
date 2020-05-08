@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Students from './frontend/Students';
+import Students from './frontend/components/Students';
 
 function App() {
   return (
