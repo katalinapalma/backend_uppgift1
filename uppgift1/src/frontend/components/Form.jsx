@@ -7,8 +7,8 @@ class Form extends Component {
     this.state = {
       name: '',
       email: '',
-      city: '',
       street: '',
+      city: '',
       zipcode: '',
     }
   }
@@ -22,14 +22,14 @@ class Form extends Component {
     this.setState({email: e.target.value});
     e.preventDefault();
   };
-
-  handleInputCity = (e) => {
-    this.setState({city: e.target.value});
-    e.preventDefault();
-  };
   
   handleInputStreet = (e) => {
     this.setState({street: e.target.value});
+    e.preventDefault();
+  };
+
+  handleInputCity = (e) => {
+    this.setState({city: e.target.value});
     e.preventDefault();
   };
 
@@ -39,32 +39,32 @@ class Form extends Component {
   };
 
   createStudent = (e) => {
-    console.log('created')
     e.preventDefault();
     const student = {
       email: this.state.email,
       name: this.state.name,
         address: {
-          city: this.state.city,
           street: this.state.street,
+          city: this.state.city,
           zipcode: this.state.zipcode,
         }
     }
     fetch('http://localhost:2000/students', {
-      method: 'post',
-      dataType: 'json',
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(student)
-    }).then(res=>res.json())
-      .then(res => {
+    })
+    .then(res=>res.json())
+      .then(() => {
+        this.props.getStudents(student);
         this.setState({
-          name: res.name,
-          email: res.email,
-          city: res.city,
-          street: res.street,
-          zipcode: res.zipcode,
+          name: '',
+          email: '',
+          street: '',
+          city: '',
+          zipcode: '',
         })
       })
   }
@@ -94,17 +94,17 @@ class Form extends Component {
             <label htmlFor="address" className={styles.formTitles}>Address:</label>
             <input 
               type="text" 
-              value={this.state.city || ''}  
-              onChange={this.handleInputCity}
-              className="form-control mt-1" 
-              placeholder='city'>
-            </input>
-            <input 
-              type="text" 
               value={this.state.street || ''}  
               onChange={this.handleInputStreet}
               className="form-control mt-1" 
               placeholder='street'>
+            </input>
+            <input 
+              type="text" 
+              value={this.state.city || ''}  
+              onChange={this.handleInputCity}
+              className="form-control mt-1" 
+              placeholder='city'>
             </input>
             <input 
               type="text" 

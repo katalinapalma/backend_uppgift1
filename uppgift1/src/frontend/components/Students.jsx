@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Form from './Form';
 import styles from '../components/Students.module.css';
 
 class Students extends Component {
@@ -9,8 +10,8 @@ class Students extends Component {
       name: '',
       email: '',
       address: {
-        city: '',
         street: '',
+        city: '',
         zipcode: '',
       }
     }
@@ -66,13 +67,14 @@ class Students extends Component {
                 <tr key={i}>
                   <td>{student.name}</td>
                   <td>{student.email}</td>
-                  <td>{student.address.street + ', ' + student.address.city}</td>
+                  <td>{student.address.street + ', ' + student.address.city + ', ' + student.address.zipcode}</td>
                   <td><button type="button" className="btn btn-dark" onClick={() => this.deleteStudent(student._id)}>delete</button></td>
                 </tr>
               )}
             </tbody>
           </table>
        </div>
+       <Form getStudents={this.getStudents} />
       </Fragment>
     )
   }

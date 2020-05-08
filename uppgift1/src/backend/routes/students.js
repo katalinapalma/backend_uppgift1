@@ -24,11 +24,10 @@ getStudentsById = (req, res, next) => {
 postStudent = (req, res, next) => {
   req.models.Student.create({
     name: req.body.name,
-    username: req.body.username,
     email: req.body.email,
     address: {
-      city: req.body.address.city,
       street: req.body.address.street,
+      city: req.body.address.city,
       zipcode: req.body.address.zipcode,
     }
   }).then((student) => {
@@ -45,8 +44,8 @@ putStudent = (req, res, next) => {
       name: req.body.name,
       email: req.body.email,
       address: {
-        city: req.body.address.city,
         street: req.body.address.street,
+        city: req.body.address.city,
         zipcode: req.body.address.zipcode,
       },
     },{
