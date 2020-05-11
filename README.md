@@ -1,5 +1,5 @@
 # Teoretisk del
->Denna del svarar på de teoretiska frågorna vi fick inför inlämningsuppgift 1. För att se vad applikationen gör och hur man startar den så finns det en README.md inuti src mappen.
+>Denna del svarar på de teoretiska frågorna vi fick inför inlämningsuppgift 1. För att se vad applikationen gör och hur man startar den så finns det en README.md inuti uppgift1 mappen.
 
 ## Frågor
 ### Hur används HTTP-protokollet när du surfar in på en websida? Beskriv vilken metod, path, URI, response code och body som skickas in och svarar.<br>
