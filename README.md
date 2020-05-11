@@ -1,9 +1,19 @@
 # Teoretisk del
 ## Frågor
 - **Hur används HTTP-protokollet när du surfar in på en websida? Beskriv vilken metod, path, URI, response code och body som skickas in och svarar.**<br>
->HTTP-protokollet används geno
+>HTTP-protokollet används för att skicka en förfrågan och ta emot ett svar. 
+
+>**http://www.smp.se/kultur-noje** som exempel:
+>**Metod:** GET,
+>**Path:** /kultur-noje,
+>**URI:** http://www.smp.se/kultur-noje,
+>**Response Code:** 200 OK,
+>**Body:** Hemsidans innehåll, HTML
 
 - **Beskriv HTTP-protokollets vanligaste metoder och vad de gör.**
+>**GET:** hämtar 
+
+>**POST:** denna metod 
 
 - **"http://localhost:3000/users?username=something" är en URI, beskriv vilka delar den består av och vad de kallas.**
 
