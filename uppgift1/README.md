@@ -19,7 +19,7 @@
 - PUT,
 - DELETE
 
->Nedanför kommer några exempel på hur man använder dessa metoder. 
+Nedanför kommer några exempel på hur man använder dessa metoder. 
 
 ### GET
 För att hämta alla studenter: <br>
@@ -35,7 +35,7 @@ För att hämta en student med hjälp av namnet. Byt ut Django mot ett av använ
 Förväntad response code: 200 OK
 
 ### POST 
-För att skapa en ny student: 
+För att skapa en ny student: <br>
 `curl -i -X POST "localhost:2000/students" -H "Content-Type: application/json; charset=utf-8" -d '{"name":"Mr. Cobb", "email":"inception@dreams.com", "address":{"street":"Dreamz", "city":"Dreamland", "zipcode":"56789"}}'`
 Förväntad response code: 201 Created
 
