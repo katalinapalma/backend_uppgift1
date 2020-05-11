@@ -30,9 +30,7 @@
 
 ## Feedback
 ### Kursens takt
->I början av kursen kändes det som att kursens takt gick väldigt fort. Det var mycket ny information att ta till sig på en gång. Dock blev det lättare efter varje föreläsning eftersom man hade mer kunskap. Det hjälpte också att du hade Recaps för då hann man ta till sig informationen och kunde ta emot det på ett lättare sätt andra gången.
-
-De två första veckorna kändes det som att det var väldigt mycket med övningsuppgifter och inlämningen. Det kändes som att det var mycket att göra men när man väl började med övningsuppgifterna så gick det rätt bra och man blev lugnare. 
+>I början av kursen kändes det som att kursens takt gick väldigt fort. Det var mycket ny information att ta till sig på en gång. Dock blev det lättare efter varje föreläsning eftersom man hade mer kunskap. Det hjälpte också att du hade Recaps för då hann man ta till sig informationen och kunde ta emot det på ett lättare sätt andra gången. <br>De två första veckorna kändes det som att det var väldigt mycket med övningsuppgifter och inlämningen. Det kändes som att det var mycket att göra men när man väl började med övningsuppgifterna så gick det rätt bra och man blev lugnare. 
 
 
 ### Kursmaterial
