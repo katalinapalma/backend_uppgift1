@@ -1,4 +1,6 @@
 # Teoretisk del
+>Denna del svarar på de teoretiska frågorna vi fick inför inlämningsuppgift 1. För att se vad applikationen gör och hur man startar den så finns det en README.md inuti src mappen.
+
 ## Frågor
 ### Hur används HTTP-protokollet när du surfar in på en websida? Beskriv vilken metod, path, URI, response code och body som skickas in och svarar.<br>
 >HTTP-protokollet används för att skicka en förfrågan och ta emot ett svar.<br>
