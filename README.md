@@ -24,7 +24,7 @@
 - ?username=something (queryn).
 
 ### På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
->- curl -i -X GET "localhost:2000/students" (path)
+- curl -i -X GET "localhost:2000/students" (path)
 - curl -i -X GET "localhost:2000/students" -H "key":"value" (head)
 - curl -i -X GET "localhost:2000/students/?name=Django" (query)
 
@@ -32,18 +32,18 @@
 ### Kursens takt
 >I början av kursen kändes det som att kursens takt gick väldigt fort. Det var mycket ny information att ta till sig på en gång. Dock blev det lättare efter varje föreläsning eftersom man hade mer kunskap. Det hjälpte också att du hade Recaps för då hann man ta till sig informationen och kunde ta emot det på ett lättare sätt andra gången.
 
->De två första veckorna kändes det som att det var väldigt mycket med övningsuppgifter och inlämningen. Det kändes som att det var mycket att göra men när man väl började med övningsuppgifterna så gick det rätt bra och man blev lugnare. 
+De två första veckorna kändes det som att det var väldigt mycket med övningsuppgifter och inlämningen. Det kändes som att det var mycket att göra men när man väl började med övningsuppgifterna så gick det rätt bra och man blev lugnare. 
 
 
 ### Kursmaterial
 >Jag tycker att boken har varit bra (det jag läst) men det är också väldigt mycket information. Den var lite jobbig att läsa ibland. 
 
->Exempelkoden tycker jag var bra och blev ännu bättre när kommenterarna las till! Det hjälpte mig mycket att förstå helheten och förstå varje steg. Exempelkoden tycker jag var bättre än boken. Jag tyckte att det var bra att det var indelat i små delar, det var lättare att kunna förstå koden och se hur det byggdes upp stegvis.
+Exempelkoden tycker jag var bra och blev ännu bättre när kommenterarna las till! Det hjälpte mig mycket att förstå helheten och förstå varje steg. Exempelkoden tycker jag var bättre än boken. Jag tyckte att det var bra att det var indelat i små delar, det var lättare att kunna förstå koden och se hur det byggdes upp stegvis.
 
 
 ### Format
 >Jag personligen tycker att det är jobbigt med online kurser då jag föredrar att lära mig på plats. Dock har det gått mycket bättre än förväntat. 
 
->Inlämningsuppgift 1 tycker jag att du kunde förtydligat att man fick fria händer när det kom till frontend delen. Det är ovanligt för oss att inte ha riktlinjer på vad uppgiften ska innehålla för saker så man var lite osäker på vad som gällde här. Jag tycker dock att det varit en bra lärdom att man fick "tänka själv" och inte vara så beroende av riktlinjer inför uppgiften. 
+Inlämningsuppgift 1 tycker jag att du kunde förtydligat att man fick fria händer när det kom till frontend delen. Det är ovanligt för oss att inte ha riktlinjer på vad uppgiften ska innehålla för saker så man var lite osäker på vad som gällde här. Jag tycker dock att det varit en bra lärdom att man fick "tänka själv" och inte vara så beroende av riktlinjer inför uppgiften. 
 
->Kanske att man efter en timme tar en ca 10 minuters paus. Ibland har det varit väldigt långa pass med endast fem minuters paus eller mindre och man blir rätt trött i huvudet i efterhand. Detta har dock blivit bättre på senare tid :) Annars tycker jag att allt funkat rätt bra, det är jätteroligt men lite klurigt ibland. Tekniken har funkat och du hjälper en snabbt om man behöver hjälp eller har frågor vilket är väldigt bra!!
+Kanske att man efter en timme tar en ca 10 minuters paus. Ibland har det varit väldigt långa pass med endast fem minuters paus eller mindre och man blir rätt trött i huvudet i efterhand. Detta har dock blivit bättre på senare tid :) Annars tycker jag att allt funkat rätt bra, det är jätteroligt men lite klurigt ibland. Tekniken har funkat och du hjälper en snabbt om man behöver hjälp eller har frågor vilket är väldigt bra!!
