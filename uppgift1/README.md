@@ -36,7 +36,7 @@ Förväntad response code: 200 OK
 
 ### POST 
 För att skapa en ny student: <br>
-`curl -i -X POST "localhost:2000/students" -H "Content-Type: application/json; charset=utf-8" -d '{"name":"Mr. Cobb", "email":"inception@dreams.com", "address":{"street":"Dreamz", "city":"Dreamland", "zipcode":"56789"}}'`
+`curl -i -X POST "localhost:2000/students" -H "Content-Type: application/json; charset=utf-8" -d '{"name":"Mr. Cobb", "email":"inception@dreams.com", "address":{"street":"Dreamz", "city":"Dreamland", "zipcode":"56789"}}'`<br>
 Förväntad response code: 201 Created
 
 ### PUT
@@ -47,7 +47,7 @@ Om du skapar nytt: 201 Created<br>
 Om inget uppdaterades: 204 No Content
 
 ### DELETE 
-För att ta bort en specifik student. Glöm inte att ersätta siffrorna med studentens unika id. 
-`curl -i -X DELETE "localhost:2000/students/5eb2b9487ca6c03a1cd8c2f5"`
+För att ta bort en specifik student. Glöm inte att ersätta siffrorna med studentens unika id. <br>
+`curl -i -X DELETE "localhost:2000/students/5eb2b9487ca6c03a1cd8c2f5"`<br>
 Förväntad response code: 200 OK
 
