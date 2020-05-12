@@ -22,7 +22,7 @@
 Nedanför kommer några exempel på hur man använder dessa metoder. 
 
 ### GET
-För att hämta alla studenter: <br>
+För att hämta alla studenter i en array: <br>
 `curl -i -X GET "localhost:2000/students"`<br>
 Förväntad response code: 200 OK
 
