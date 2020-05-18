@@ -4,9 +4,6 @@ const studentSchema = new mongoose.Schema({
   name: String,
   email: {
     type: String,
-    validator: function(v) {
-      return /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-    }
   },
   address: {
     street: String,
